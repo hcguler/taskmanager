@@ -11,7 +11,7 @@
 - Gradle install dependencies
 - gradle build
 - gradle bootJar
-- change directory ,/docker
+- change directory ./docker
 - docker-compose up -d //for postgresql
 - java -jar ./build/libs/simpletaskmanager-0.0.1-SNAPSHOT.jar
 
@@ -21,10 +21,7 @@ Browse http://localhost:8081/swagger-ui/index.html
 
 Run test suite for all business logic tests
 
-Project does not have integration test.
-
 Postman collection directory ./postman-collection
-
 
 ## *UI*
 
