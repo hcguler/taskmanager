@@ -1,0 +1,31 @@
+info:
+  app:
+    name: Simple Task Manager
+    description: Simple Task Manager Application
+    version: 1.0.0
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: false
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5431/hcg
+    username: HCG
+    password: hcg12345
+    driverClassName: org.postgresql.Driver
+    initialization-mode: always
+
+logging:
+  level:
+    com:
+      hcg: DEBUG

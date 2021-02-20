@@ -1,0 +1,102 @@
+$body-bg: #000
+$body-color: #111
+$blocker-background: #F9C9C9
+$blocker-text: #FE4141
+$critical-background: #FFE9CF
+$critical-text: #F07D28
+$high-background: #F9F5C9
+$high-text: #DDBC31
+$low-background: #CFFFD1
+$low-text: #20BF3F
+$closed-background: #E1E1E1
+$closed-text: #898989
+
+.headerMainPage
+  background: black!important
+  color: white!important
+  padding-left: 5%
+  height: 40px
+  font-size: x-small
+  div
+    height: 100%
+    padding: 12px
+
+body
+  background-color: #F4F4F4 !important
+  .container-fluid
+    margin-bottom: 2%!important
+    margin-top: 2%!important
+    margin-left: 5%!important
+    margin-right: 5%!important
+    width: 90%!important
+  .card
+    padding: 1%!important
+    font-size: x-small!important
+    .col-8
+      padding-right: 5%!important
+    .btn-blocker, .btn-blocker:hover, .btn-blocker:active, .btn-blocker:visited
+      background-color: $blocker-background !important
+      color: $blocker-text!important
+      width: 66px!important
+    .btn-critical, .btn-critical:hover, .btn-critical:active, .btn-critical:visited
+      background-color: $critical-background !important
+      color: $critical-text!important
+      width: 66px!important
+    .btn-high, .btn-high:hover, .btn-high:active, .btn-high:visited
+      background-color: $high-background !important
+      color: $high-text!important
+      width: 66px!important
+    .btn-low, .btn-low:hover, .btn-low:active, .btn-low:visited
+      background-color: $low-background !important
+      color: $low-text!important
+      width: 66px!important
+    .btn-closed, .btn-closed:hover, .btn-closed:active, .btn-closed:visited
+      background-color: $closed-background !important
+      color: $closed-text!important
+      width: 66px!important
+    .card
+      margin-top: 1%!important
+      margin-bottom: 1%!important
+      margin-left: 4%!important
+      margin-right: 4%!important
+      background-color: #F7F7F7
+      .card-body
+        padding: 3px!important
+      .card-title
+        padding-left: 0px!important
+      .card
+        margin-top: 2px!important
+        margin-bottom: 2px!important
+        margin-left: 2px!important
+        margin-right: 2px!important
+    .card-body
+      padding: 3px!important
+    .card-title
+      padding-left: 40px!important
+      font-size: medium
+
+.marginBottomSpace
+  margin-bottom: 15px!important
+
+.btn
+  font-size: xx-small!important
+  font-weight: bold!important
+.BLOCKER
+  border-left: 5px solid #fd4141 !important
+.CRITICAL
+  border-left: 5px solid #ee7e28 !important
+.HIGH
+  border-left: 5px solid #d7b21a !important
+.LOW
+  border-left: 5px solid #28bf3f !important
+.CLOSE
+  border-left: 5px solid #aeb0b2 !important
+.rightSpaceForButton
+  margin-right: 5px!important
+
+
+
+
+
+@import 'node_modules/bootstrap/scss/bootstrap'
+@import 'node_modules/bootstrap-vue/src/index'

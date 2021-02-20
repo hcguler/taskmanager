@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "07042b1c-4fb6-4333-a418-1aeb35c92f3c",
+		"name": "Task Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get task by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/task/getTask/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"getTask",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete task by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/delete/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"delete",
+						"task",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all closed task",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/getAllCloseTasks?pageNo=0&pageSize=10&sortBy=id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"getAllCloseTasks"
+					],
+					"query": [
+						{
+							"key": "pageNo",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "10"
+						},
+						{
+							"key": "sortBy",
+							"value": "id"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all open task",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/getAllOpenTasks?pageNo=0&pageSize=10&sortBy=id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"getAllOpenTasks"
+					],
+					"query": [
+						{
+							"key": "pageNo",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "10"
+						},
+						{
+							"key": "sortBy",
+							"value": "id"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get task by task Name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/getTaskPageByTaskName?pageNo=0&pageSize=10&sortBy=id&taskName=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"getTaskPageByTaskName"
+					],
+					"query": [
+						{
+							"key": "pageNo",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "10"
+						},
+						{
+							"key": "sortBy",
+							"value": "id"
+						},
+						{
+							"key": "taskName",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"taskName\": \"asad\",\r\n    \"taskDescription\": \"task_description_1-\",\r\n    \"state\": \"OPEN\",\r\n    \"taskLevel\": \"BLOCKER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/save/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"save",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update task",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 9,\r\n    \"createdDate\": 1612406356519,\r\n    \"version\": 1,\r\n    \"taskName\": \"yeni-3\",\r\n    \"taskDescription\": \"yeni-3-description\",\r\n    \"subTaskList\": [],\r\n    \"state\": \"OPEN\",\r\n    \"taskLevel\": \"BLOCKER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/task/update/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"task",
+						"update",
+						"task"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

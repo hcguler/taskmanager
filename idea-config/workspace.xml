@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e309d008-bfd3-4a9e-a6e7-2b14283fd399" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/backend">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simpletaskmanager" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="JupyterTrust" id="b95fde65-6ba8-4588-8148-4f795740d6c0" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\tools\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ol7Y06xgEDplaNilbPKw32Y2IH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui/package.json" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.46896553" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.taskmanager-ui-debug">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8080/">
+      <method v="2" />
+    </configuration>
+    <configuration name="taskmanager-ui-debug" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8080/">
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleTaskManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="simpletaskmanager.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hcg.simpletaskmanager.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hcg.simpletaskmanager.configuration.SimpleTaskManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="taskmanager-ui" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.taskmanager-ui-debug" />
+      <item itemvalue="npm.taskmanager-ui" />
+      <item itemvalue="Spring Boot.SimpleTaskManagerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SimpleTaskManagerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e309d008-bfd3-4a9e-a6e7-2b14283fd399" name="Default Changelist" comment="" />
+      <created>1613849366542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613849366542</updated>
+      <workItem from="1613849367609" duration="242000" />
+      <workItem from="1613849620726" duration="718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613850338564">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1613850338564" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1613850224379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613850224379" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1613850260588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613850260588" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1613850260588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613850260588" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1613850260588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613850260588" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1613850260588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613850260588" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1613850260164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613850260164" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1613850260163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1613850260163" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1613850260163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1613850260163" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1613850260163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1613850260163" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1613850260164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613850260164" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1613850260164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1613850260164" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1613850260164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1613850260164" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1613850260164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1613850260164" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1613850062215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613850062215" />
+  </component>
+</project>
